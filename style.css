@@ -1,0 +1,77 @@
+body {
+    font-family: Arial;
+    background: #f5f7fa;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    font-size: 14px;
+}
+
+th {
+    background: #ddd;
+}
+
+.day {
+    font-weight: bold;
+    background: #eee;
+}
+
+.td {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* form */
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#msg {
+    color: green;
+    margin-top: 10px;
+}
